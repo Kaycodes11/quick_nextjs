@@ -1,0 +1,29 @@
+{
+  "name": "foody",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@iconscout/react-unicons": "^1.1.6",
+    "@mantine/core": "^5.5.5",
+    "@mantine/hooks": "^5.5.5",
+    "@sanity/client": "^3.4.1",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.41.0",
+    "next": "^12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "stripe": "^10.13.0",
+    "zustand": "^4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "8.24.0",
+    "eslint-config-next": "12.3.1"
+  }
+}
